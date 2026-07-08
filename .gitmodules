@@ -1,0 +1,12 @@
+[submodule "application"]
+	path = application
+	url = https://github.com/papyroplastics/memoria-somasafe-app.git
+[submodule "firmware"]
+	path = firmware
+	url = https://github.com/papyroplastics/memoria-somasafe-firmware.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/papyroplastics/memoria-somasafe-backend.git
+[submodule "shared"]
+	path = shared
+	url = https://github.com/papyroplastics/memoria-somasafe-shared
