@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pattern='(\.(c(c|pp)?|h(pp)?|py|kts?|sh))$'
+pattern='(Containerfile|Caddyfile|Makefile|CMakeLists.txt|\.(c(c|pp)?|h(pp)?|py|kts?|sh|ya?ml|tf|cmake))$'
 
 function fd-pat {
     fd --no-follow --type file "$pattern" "$1"
